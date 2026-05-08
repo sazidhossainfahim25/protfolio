@@ -56,7 +56,7 @@ export default function Navbar() {
       {/* Mobile Menu Side Bar */}
       <div className={`mobile-menu ${open ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className="p-6">
-          <button onClick={() => setOpen(false)} className="text-2xl mb-10">
+          <button onClick={() => setOpen(false)} className="text-xl mb-10">
             <RxCross1 />
           </button>
           <ul className="flex flex-col gap-6">

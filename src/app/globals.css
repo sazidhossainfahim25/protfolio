@@ -8,12 +8,12 @@
 
 :root {
   --background: #FCF8F8;
-  --foreground: #171717;
+  --foreground: #0D1A63;
 }
 
 .dark {
   --background: #091413;
-  --foreground: #ededed;
+  --foreground: #ffffff;
 }
 
 body {
@@ -40,7 +40,6 @@ body {
     @apply md:w-[90%] transition-all duration-300;
   }
 
-  /* ডার্ক মোডে নেভবার কালার পরিবর্তনের জন্য */
   .dark .glass-navbar {
     background-color: rgba(9, 20, 19, 0.7);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -48,10 +47,15 @@ body {
   }
 
   .mobile-menu {
-    @apply fixed top-0 left-0 h-full w-64 z-[60] 
-           bg-white/95 dark:bg-[#091413]/95 backdrop-blur-2xl 
-           border-r border-black/5 dark:border-white/10 
-           transition-transform duration-500 ease-in-out;
+ @apply fixed top-0 left-0 h-full w-64 z-[60]
+         bg-white/[0.03] dark:bg-white/[0.02]
+         backdrop-blur-[40px]
+         border-r border-white/10
+         shadow-[0_8px_32px_rgba(0,0,0,0.15)]
+         transition-transform duration-500 ease-in-out;
+
+  -webkit-backdrop-filter: blur(40px);
+  backdrop-filter: blur(40px);
   }
 }
 

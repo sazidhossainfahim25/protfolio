@@ -1,10 +1,17 @@
+
 import ProjectsPage from "./projects/page";
+import AboutPage from "./about/page";
+import Hero from "@/components/Hero";
+import ContactPage from "./contact/page";
 
 
 export default function Home() {
   return (
     <>
-    <ProjectsPage/>
+      <Hero />
+      <AboutPage />
+      <ProjectsPage />
+      <ContactPage/>
     </>
   );
 }
