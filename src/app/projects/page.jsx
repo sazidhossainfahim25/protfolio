@@ -143,40 +143,42 @@ const ProjectsPage = () => {
                 </div>
 
                 {/* Buttons */}
-<div className="grid grid-cols-2 gap-2 mb-2">
+                <div className="grid grid-cols-2 gap-2 mb-2">
+                  {/* GitHub */}
+                  <Link
+                    href={project.githubLink}
+                    target="_blank"
+                    className="group/btn flex items-center justify-center gap-2 py-2 rounded-2xl bg-gray-100 dark:bg-white/10 hover:bg-black dark:hover:bg-white text-gray-800 dark:text-white hover:text-white dark:hover:text-black font-semibold transition-all duration-300"
+                  >
+                    <FaGithub className="text-lg group-hover/btn:rotate-12 transition-all duration-300" />
+                    GitHub
+                  </Link>
 
-  {/* GitHub */}
-  <Link
-    href={project.githubLink}
-    target="_blank"
-    className="group/btn flex items-center justify-center gap-2 py-2 text-xs rounded-xl bg-gray-100 dark:bg-white/10 hover:bg-black dark:hover:bg-white text-gray-800 dark:text-white hover:text-white dark:hover:text-black font-semibold transition-all duration-300"
-  >
-    <FaGithub className="text-base group-hover/btn:rotate-12 transition-all duration-300" />
-    GitHub
-  </Link>
+                  {/* Live Demo */}
+                  <Link
+                    href={project.liveLink}
+                    target="_blank"
+                    className="group/btn flex items-center justify-center gap-2 py-3 rounded-2xl bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-semibold shadow-lg hover:scale-[1.03] transition-all duration-300"
+                  >
+                    <FaExternalLinkAlt className="text-sm group-hover/btn:translate-x-1 transition-all duration-300" />
+                    Live Demo
+                  </Link>
+                </div>
 
-  {/* Live Demo */}
-  <Link
-    href={project.liveLink}
-    target="_blank"
-    className="group/btn flex items-center justify-center gap-2 py-2 text-xs rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-semibold shadow-md hover:scale-[1.03] transition-all duration-300"
-  >
-    <FaExternalLinkAlt className="text-xs group-hover/btn:translate-x-1 transition-all duration-300" />
-    Live
-  </Link>
+                {/* Case Study */}
+                <Link href={`/projects/${project.id}`}>
+                  <motion.div
+                    whileHover={{
+                      x: 5,
+                    }}
+                    className="flex items-center justify-between rounded-2xl border border-black/5 dark:border-white/10 bg-white/70 dark:bg-[#0f172a]/80 px-5 py-4 text-sm font-bold text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white transition-all duration-300"
+                  >
+                    <span>Explore Case Study</span>
 
-</div>
-
-{/* Case Study */}
-<Link href={`/projects/${project.id}`}>
-  <motion.div
-    whileHover={{ x: 3 }}
-    className="flex items-center justify-between rounded-xl border border-black/5 dark:border-white/10 bg-white/70 dark:bg-[#0f172a]/80 px-4 py-3 text-xs font-bold text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white transition-all duration-300"
-  >
-    <span>Case Study</span>
-    <FaArrowRight className="text-xs" />
-  </motion.div>
-</Link>
+                    <FaArrowRight />
+                  </motion.div>
+                </Link>
+              </div>
 
               {/* Bottom Glow Line */}
               <div className="absolute bottom-0 left-0 w-0 h-1 bg-gradient-to-r from-blue-500 to-cyan-400 group-hover:w-full transition-all duration-700"></div>
