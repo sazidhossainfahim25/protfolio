@@ -7,29 +7,28 @@ import { FaGraduationCap, FaBriefcase } from 'react-icons/fa';
 
 const education = [
   {
-    degree: 'secondary school certificate (ssc)',
-    institution: 'Rowshan Ara Kader High School, Mymensingh ',
-    duration: '2018',
-    description:
-      'Focusing on software engineering, data structures, modern web technologies and scalable application development.',
-  },
-
-  {
     degree: 'Higher Secondary Certificate (HSC)',
     institution: 'Mymensingh ideal college',
     duration: '2018 - 2022',
-    description: 'Completed higher secondary education with a Humanities background focused .',
+    description: 'Completed higher secondary education with a Humanities background  .',
   },
+  {
+    degree: 'Secondary School Certificate (SSC)',
+    institution: 'Rowshan Ara Kader High School, Mymensingh ',
+    duration: '2018',
+    description: 'Completed Secondary School Certificate (SSC) with a Science background ',
+  }
 ];
 
 const experience = [
   {
     role: 'Frontend Developer',
-    company: 'backtheme themeforest ',
-    duration: 'Jan 2025 -December 2025',
+    company: 'BackTheme (ThemeForest)',
+    duration: 'Jan 2025 - Dec 2025',
     description:
-      'Built responsive and interactive user interfaces using html, Tailwind CSS,javascript and modern frontend practices.',
+      'Built responsive and interactive user interfaces using HTML, Tailwind CSS, JavaScript, and modern frontend development practices.',
   },
+  
 ];
 
 const fadeUp = {

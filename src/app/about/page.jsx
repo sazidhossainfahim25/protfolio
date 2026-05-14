@@ -48,10 +48,7 @@ const AboutPage = () => {
             viewport={{ once: true }}
             className="mx-auto w-full max-w-md"
           >
-            <div className="relative overflow-hidden rounded-[35px] border border-white/10 bg-white/10 dark:bg-[#0f172a]/10 backdrop-blur-2xl p-8 text-center shadow-2xl">
-              {/* Glow */}
-              <div className="absolute -top-20 -right-20 w-40 h-40 bg-blue-500/10 blur-3xl rounded-full"></div>
-              <div className="absolute -bottom-20 -left-20 w-40 h-40 bg-blue-500/10 blur-3xl rounded-full"></div>
+            <div className="relative overflow-hidden rounded-[35px] border border-amber-50/5 backdrop-blur-2xl p-8 text-center ">
 
               {/* Image */}
               <motion.div
@@ -74,9 +71,8 @@ const AboutPage = () => {
 
                 <p className="text-blue-500 text-lg font-medium">Full Stack Developer</p>
 
-                <p className="text-gray-500 dark:text-gray-400">Frontend Focused</p>
+                <p className="text-blue-500 dark:text-white-400">(Frontend Focused)</p>
 
-                <p className="text-sm text-gray-500 dark:text-gray-400">sazidhossain25@gmail.com</p>
               </div>
 
               {/* Social Icons */}

@@ -29,7 +29,7 @@ export default function Navbar() {
     <header>
       <nav className="glass-navbar bg-gray-600/10">
         <div className="flex justify-between items-center p-4 px-6">
-          <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
+          <h1 className="text-2xl font-bold bg-clip-text text-transparent  dark:bg-amber-50 bg-blue-950">
             SH
           </h1>
 
