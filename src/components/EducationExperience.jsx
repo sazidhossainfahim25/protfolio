@@ -7,29 +7,28 @@ import { FaGraduationCap, FaBriefcase } from 'react-icons/fa';
 
 const education = [
   {
-    degree: 'Bachelor of Science in CSE',
-    institution: 'Your University Name',
-    duration: '2021 - Present',
+    degree: 'secondary school certificate (ssc)',
+    institution: 'Rowshan Ara Kader High School, Mymensingh ',
+    duration: '2018',
     description:
       'Focusing on software engineering, data structures, modern web technologies and scalable application development.',
   },
 
   {
     degree: 'Higher Secondary Certificate (HSC)',
-    institution: 'Your College Name',
-    duration: '2018 - 2020',
-    description:
-      'Completed higher secondary education with a science background focused on mathematics and physics.',
+    institution: 'Mymensingh ideal college',
+    duration: '2018 - 2022',
+    description: 'Completed higher secondary education with a Humanities background focused .',
   },
 ];
 
 const experience = [
   {
-    role: 'Frontend Developer (Intern)',
-    company: 'Tech Solutions Ltd.',
-    duration: 'Jan 2024 - June 2024',
+    role: 'Frontend Developer',
+    company: 'backtheme themeforest ',
+    duration: 'Jan 2025 -December 2025',
     description:
-      'Built responsive and interactive user interfaces using React.js, Tailwind CSS and modern frontend practices.',
+      'Built responsive and interactive user interfaces using html, Tailwind CSS,javascript and modern frontend practices.',
   },
 ];
 
