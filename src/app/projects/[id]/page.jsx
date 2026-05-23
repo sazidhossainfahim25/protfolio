@@ -2,7 +2,7 @@ import React from 'react';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
 const ProjectDetails = ({ params }) => {
-  // এখানে আপনি আপনার প্রজেক্টের ডাটাগুলো একটি অ্যারে থেকে আইডি অনুযায়ী ফিল্টার করে নিতে পারেন।
+ 
   const project = {
     name: 'E-Commerce Platform',
     image: '/project-img.jpg',
