@@ -73,6 +73,28 @@
     "github": "https://github.com/sazidhossainfahim25/Job-Application-Tracker",
     "live": "https://job-application-tracker-six-orpin.vercel.app/"
   }
+},{
+  "id": 5,
+  "title": "StudyNook",
+  "description": "StudyNook is a full-stack library study room booking platform where users can explore, search, and book quiet study rooms for specific time slots. Users can also add and manage their own study room listings, while the system prevents double bookings through advanced conflict detection and secure JWT authentication.",
+  "image": "/studynook.png",
+  "tags": [
+    "Next.js",
+    "React.js",
+    "Tailwind CSS",
+    "DaisyUI",
+    "MongoDB",
+    "Express.js",
+    "JWT",
+    "Firebase Authentication",
+    "React Hot Toast",
+    "Vercel",
+    "Render"
+  ],
+  "links": {
+    "github": "https://github.com/your-username/studynook",
+    "live": "https://your-studynook-live-url.vercel.app/"
+  }
 }
   
 ]
