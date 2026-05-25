@@ -92,13 +92,13 @@ const Hero = () => {
                 </motion.button>
               </Link>
 
-              <Link href="/resume.pdf" target="_blank">
+              <Link href="/Resume.pdf" target="_blank">
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="px-8 py-3 rounded-2xl border border-blue-500/40 bg-white/50 dark:bg-white/5 backdrop-blur-md text-blue-600 dark:text-white hover:bg-blue-600 hover:text-white transition-all flex items-center gap-2"
                 >
-                  <FiDownload /> Download CV
+                  <FiDownload /> Resume
                 </motion.button>
               </Link>
             </motion.div>
